@@ -18,7 +18,7 @@
 
     <a
       m="r-2"
-      href="https://github.com/MichaelGitArt/gitart-vue-dialog"
+      href="https://github.com/gitart-group/vue-dialog"
       target="_blank"
     >
       github
