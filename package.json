@@ -16,6 +16,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@types/node": "^17.0.17",
     "@vueuse/core": "^7.6.1",
     "gitart-vue-dialog": "^1.2.0",
     "vue": "^3.2.30"

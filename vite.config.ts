@@ -1,4 +1,3 @@
-/* eslint-env node */
 import path from 'path'
 import type { UserConfigExport } from 'vite'
 import { defineConfig } from 'vite'
