@@ -614,10 +614,25 @@
     "@vueuse/shared" "7.6.1"
     vue-demi "*"
 
+"@vueuse/core@^7.7.1":
+  version "7.7.1"
+  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-7.7.1.tgz#fc284f4103de73c7fb79bc06579d8066790db511"
+  integrity sha512-PRRgbATMpoeUmkCEBtUeJgOwtew8s+4UsEd+Pm7MhkjL2ihCNrSqxNVtM6NFE4uP2sWnkGcZpCjPuNSxowJ1Ow==
+  dependencies:
+    "@vueuse/shared" "7.7.1"
+    vue-demi "*"
+
 "@vueuse/shared@7.6.1":
   version "7.6.1"
   resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-7.6.1.tgz#48db62a4ad160838353ae78d0dcbfc7c9c94c89c"
   integrity sha512-VhURBjuyELYLW94TLqwyM+tUZ0uyWAOjp8zDnJts5wwyHZlGt/yabLbuEl70cKmt0zR9psVyAyHC+LTgRrA1Zw==
+  dependencies:
+    vue-demi "*"
+
+"@vueuse/shared@7.7.1":
+  version "7.7.1"
+  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-7.7.1.tgz#77e312de7275380efce86b0079bd7938791a076b"
+  integrity sha512-rN2qd22AUl7VdBxihagWyhUNHCyVk9IpvBTTfHoLH9G7rGE552X1f+zeCfehuno0zXif13jPw+icW/wn2a0rnQ==
   dependencies:
     vue-demi "*"
 
@@ -1586,10 +1601,12 @@ get-symbol-description@^1.0.0:
     call-bind "^1.0.2"
     get-intrinsic "^1.1.1"
 
-gitart-vue-dialog@^1.2.0:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/gitart-vue-dialog/-/gitart-vue-dialog-1.2.3.tgz#8c457e84be70936a02839ad96450ec27cd7a0cb5"
-  integrity sha512-xwaELtjly7DxRuo+N1Jp/SdqhwHpC+7qKLTdvOHMeqh0EPx2y/oUowAELjtfRVMTsYgs/pvNLH84E2N3SCwIZA==
+gitart-vue-dialog@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/gitart-vue-dialog/-/gitart-vue-dialog-2.0.0.tgz#30d569cfc691d52d6f85ff12b5045e947b3d872b"
+  integrity sha512-SkwATUpKYCwb7WA3uGf5LOPgjq9qePx0jOpUkBr7QMdBsyOCwZvdlEc1dYPRiCOoN0h+abyhxrOWT//k9sAldg==
+  dependencies:
+    "@vueuse/core" "^7.7.1"
 
 glob-parent@^5.1.2, glob-parent@~5.1.2:
   version "5.1.2"
