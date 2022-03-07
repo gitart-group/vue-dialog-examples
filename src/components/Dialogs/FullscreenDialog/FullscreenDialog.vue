@@ -81,15 +81,14 @@ export default defineComponent({
 
 <style lang="scss">
 .custom-slide-up-transition {
-  opacity: 0;
-
-  &-enter-from {
-    transform: translate(0, 40%);
-    opacity: 0;
+  &-enter-active,
+  &-leave-active {
+    transition-duration: 0.3s;
   }
 
+  &-enter-from,
   &-leave-to {
-    opacity: 0;
+    transform: translate(0, 100%);
   }
 }
 </style>
