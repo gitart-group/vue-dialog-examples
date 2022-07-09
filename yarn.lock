@@ -1586,10 +1586,10 @@ get-symbol-description@^1.0.0:
     call-bind "^1.0.2"
     get-intrinsic "^1.1.1"
 
-gitart-vue-dialog@2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/gitart-vue-dialog/-/gitart-vue-dialog-2.0.3.tgz#46f007031ef81f26ad246ea3bf529f7d92b482a0"
-  integrity sha512-ke2biieP50I41Mfmxhp0ii/qh0xa7Hsn8Q2/oTg7SdnRk21jICECSDQwMtcHv9OWhfyZVq2E3VT5BaOfAwr7iQ==
+gitart-vue-dialog@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/gitart-vue-dialog/-/gitart-vue-dialog-2.4.0.tgz#27029132dfe7f5c6d7535571de82d3511bcbb12b"
+  integrity sha512-ko7q7ftZ8gJ0gOsL6/9NYlSyc1DEI2Ez32kXmRfO64mreYMD6z2U4eporL/lz1kBP9XtgORVBJcvXDeJDL/94g==
 
 glob-parent@^5.1.2, glob-parent@~5.1.2:
   version "5.1.2"

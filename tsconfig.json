@@ -20,6 +20,7 @@
     "outDir": "./dist",
     "downlevelIteration": true,
     "strict": true,
+    "jsx": "preserve",
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "moduleResolution": "node",
